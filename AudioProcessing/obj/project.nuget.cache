@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ll+KuSb4UB4=",
+  "success": true,
+  "projectFilePath": "D:\\AudioProcessing\\AudioProcessing\\AudioProcessing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft-windowsapicodepack-core\\1.1.5\\microsoft-windowsapicodepack-core.1.1.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft-windowsapicodepack-shell\\1.1.5\\microsoft-windowsapicodepack-shell.1.1.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

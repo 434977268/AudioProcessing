@@ -1,0 +1,316 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "CommunityToolkit.Mvvm/8.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Core/1.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Microsoft-WindowsAPICodePack-Shell/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft-WindowsAPICodePack-Core": "1.1.5"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "TagLibSharp/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TagLibSharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TagLibSharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Mvvm/8.4.0": {
+      "sha512": "tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.12/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.12/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/CommunityToolkit.Mvvm.FeatureSwitches.targets",
+        "build/CommunityToolkit.Mvvm.SourceGenerators.targets",
+        "build/CommunityToolkit.Mvvm.Windows.targets",
+        "build/CommunityToolkit.Mvvm.WindowsSdk.targets",
+        "build/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.FeatureSwitches.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.SourceGenerators.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.Windows.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.WindowsSdk.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.pdb",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.xml",
+        "lib/net8.0/CommunityToolkit.Mvvm.dll",
+        "lib/net8.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net8.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "Microsoft-WindowsAPICodePack-Core/1.1.5": {
+      "sha512": "3feeT5wxrH/T4YmoZwCglVrUw6aS4+WJLA3FRADLVT2J85/zjptrCikvGNcLI1+gDeoI1AZ4w45gF2FvBv6eQw==",
+      "type": "package",
+      "path": "microsoft-windowsapicodepack-core/1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.WindowsAPICodePack.dll",
+        "lib/net452/Microsoft.WindowsAPICodePack.xml",
+        "lib/net462/Microsoft.WindowsAPICodePack.dll",
+        "lib/net462/Microsoft.WindowsAPICodePack.xml",
+        "lib/net472/Microsoft.WindowsAPICodePack.dll",
+        "lib/net472/Microsoft.WindowsAPICodePack.xml",
+        "lib/net48/Microsoft.WindowsAPICodePack.dll",
+        "lib/net48/Microsoft.WindowsAPICodePack.xml",
+        "lib/net481/Microsoft.WindowsAPICodePack.dll",
+        "lib/net481/Microsoft.WindowsAPICodePack.xml",
+        "lib/net6.0-windows7.0/Microsoft.WindowsAPICodePack.dll",
+        "lib/net6.0-windows7.0/Microsoft.WindowsAPICodePack.xml",
+        "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.dll",
+        "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.xml",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.dll",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.xml",
+        "microsoft-windowsapicodepack-core.1.1.5.nupkg.sha512",
+        "microsoft-windowsapicodepack-core.nuspec"
+      ]
+    },
+    "Microsoft-WindowsAPICodePack-Shell/1.1.5": {
+      "sha512": "lZ+oIxvTp1Ph0YrzFl3AKcrry7OCfi0awf43nrGwodWqDlFASktZ+pN532rbU/5o09irYjxVu1m3UxO5L1H8fw==",
+      "type": "package",
+      "path": "microsoft-windowsapicodepack-shell/1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net452/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net462/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net462/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net472/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net472/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net48/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net48/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net481/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net481/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net6.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net6.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net7.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.xml",
+        "microsoft-windowsapicodepack-shell.1.1.5.nupkg.sha512",
+        "microsoft-windowsapicodepack-shell.nuspec"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+      "sha512": "r8qBEXmQfORso2+MVHnt8PSH4761zJ0SIxgQTSEDVLU97EN2FZdG6/ZCYUPhQy+OrPKgnpYBCAs3PS6Bs7wRsg==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.135",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net462/Microsoft.Xaml.Behaviors.xml",
+        "lib/net6.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "TagLibSharp/2.3.0": {
+      "sha512": "Qo4z6ZjnIfbR3Us1Za5M2vQ97OWZPmODvVmepxZ8XW0UIVLGdO2T63/N3b23kCcyiwuIe0TQvMEQG8wUCCD1mA==",
+      "type": "package",
+      "path": "taglibsharp/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/TagLibSharp.dll",
+        "lib/net462/TagLibSharp.pdb",
+        "lib/net462/TaglibSharp.xml",
+        "lib/netstandard2.0/TagLibSharp.dll",
+        "lib/netstandard2.0/TagLibSharp.pdb",
+        "lib/netstandard2.0/TaglibSharp.xml",
+        "taglibsharp.2.3.0.nupkg.sha512",
+        "taglibsharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "CommunityToolkit.Mvvm >= 8.4.0",
+      "Microsoft-WindowsAPICodePack-Shell >= 1.1.5",
+      "Microsoft.Xaml.Behaviors.Wpf >= 1.1.135",
+      "TagLibSharp >= 2.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\AudioProcessing\\AudioProcessing\\AudioProcessing.csproj",
+      "projectName": "AudioProcessing",
+      "projectPath": "D:\\AudioProcessing\\AudioProcessing\\AudioProcessing.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\AudioProcessing\\AudioProcessing\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.4.0, )"
+          },
+          "Microsoft-WindowsAPICodePack-Shell": {
+            "target": "Package",
+            "version": "[1.1.5, )"
+          },
+          "Microsoft.Xaml.Behaviors.Wpf": {
+            "target": "Package",
+            "version": "[1.1.135, )"
+          },
+          "TagLibSharp": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
